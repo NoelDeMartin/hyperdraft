@@ -7,6 +7,7 @@
     "start": "olsk-express",
     
     "test": "olsk-spec",
+    "test:ci": "olsk-spec --ci",
 
     "build": "olsk-rollup",
     "watch": "olsk-rollup-watch"
@@ -39,7 +40,7 @@
     "// I sacrifice myself for the commas of others": null
   },
   "devDependencies": {
-    "OLSKPithToolchain": "olsk/OLSKPithToolchain",
+    "OLSKPithToolchain": "NoelDeMartin/OLSKPithToolchain#ci-tests",
     "OLSKRollupScaffold": "olsk/OLSKRollupScaffold",
 
     "// I sacrifice myself for the commas of others": null
