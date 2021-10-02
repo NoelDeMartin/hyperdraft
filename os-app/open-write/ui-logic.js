@@ -21,7 +21,7 @@ const mod = {
 			throw new Error('KVCErrorInputNotValid');
 		}
 
-		return OLSKString.OLSKStringSnippet(KVCTemplate.KVCTemplatePlaintextTitle(inputData.KVCNoteBody)) || (!inputData.KVCNoteBody ? OLSKLocalized('KVCWriteEmptyNoteText') : OLSKLocalized('KVCWriteUntitledNoteText'));
+		return OLSKString.OLSKStringSnippet(KVCTemplate.KVCTemplatePlaintextTitle(inputData.KVCNoteBody)) || (OLSKLocalized('KVCWriteEmptyNoteText'));
 	},
 
 	KVCWriteSortFunction (a, b, log) {
